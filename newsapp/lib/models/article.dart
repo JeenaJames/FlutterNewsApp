@@ -6,6 +6,7 @@ class Article {
   DateTime publishedAt;
   String content;
   String articleUrl;
+  bool status;
 
   Article(
       {this.title,
@@ -14,5 +15,6 @@ class Article {
       this.content,
       this.publishedAt,
       this.urlToImage,
-      this.articleUrl});
+      this.articleUrl,
+      this.status});
 }

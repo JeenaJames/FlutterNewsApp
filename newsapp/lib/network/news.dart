@@ -26,6 +26,7 @@ class News {
             publishedAt: DateTime.parse(element['publishedAt']),
             content: element["content"],
             articleUrl: element["url"],
+            status: false,
           );
           news.add(article);
         }
